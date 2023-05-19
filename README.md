@@ -74,10 +74,22 @@ Understanding the followings are the building blocks to understand how to build 
 - Dining Philosophers
 ---
 
-#### Course Duration
 ---
 #### Prerequisites
 - Basic understanding of Java Language and It'_s_ syntax.
+
+### How to Build
+```
+
+mvn clean package
+
+```
+
+### How to Run
+```
+
+java -cp target/java-concurrency-samples-1.0-SNAPSHOT.jar ThreadExample
+
 ---
 #### Summary
 We have successfully completed this course, We have seen the building blocks which are used to
