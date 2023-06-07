@@ -10,9 +10,9 @@ public class AtomicityMain {
         static int val = 0;
 
         public void increment() {
-            //synchronized (lock) { // lock represents external lock
+            synchronized (lock) { // lock represents external lock
                 this.num++;
-            //}
+            }
         }
 
         public static synchronized void incVal() { // method belongs to class
