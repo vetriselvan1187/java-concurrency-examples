@@ -72,7 +72,6 @@ Understanding the followings are the building blocks to understand how to build 
 #### Practice
 - Print FizzBuzz
 - Dining Philosophers
----
 
 ---
 #### Prerequisites
