@@ -91,12 +91,14 @@ mvn clean package
 java -cp target/java-concurrency-samples-1.0-SNAPSHOT.jar ThreadExample
 
 ---
+
 #### Summary
 We have successfully completed this course, We have seen the building blocks which are used to
 build multithreading application. These are the core features to understand java concurrency
 and it's related classes.
 
 ---
+
 ##### References
 [https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/package-summary.html](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/package-summary.html)
 [https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/package-summary.html](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/package-summary.html)
