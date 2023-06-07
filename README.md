@@ -90,6 +90,8 @@ mvn clean package
 
 java -cp target/java-concurrency-samples-1.0-SNAPSHOT.jar ThreadExample
 
+```
+
 ---
 
 #### Summary
