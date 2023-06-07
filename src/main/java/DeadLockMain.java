@@ -95,7 +95,7 @@ public class DeadLockMain {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         /*Account account1 = new Account(0, 0+"", 1000);
         Account account2 = new Account(1, 1+"", 1000);
@@ -142,7 +142,11 @@ public class DeadLockMain {
         }
 
         for(Thread t : threadList) {
-            t.join();
+            try {
+                t.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
         long sum = 0;
         for(Account account : accounts) {
