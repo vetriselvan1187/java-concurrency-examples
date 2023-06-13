@@ -64,10 +64,14 @@ Understanding the followings are the building blocks to understand how to build 
 - Collections and Concurrency
 - Building Custom Synchronizer using AbstractQueuedSynchronizer
 
+---
+
 #### Problems
 - Print Zero Odd Even
 - Print Water Molecule (H2O)
 - Print CO2 Molecule
+
+---
 
 #### Practice
 - Print FizzBuzz
@@ -77,6 +81,7 @@ Understanding the followings are the building blocks to understand how to build 
 #### Prerequisites
 - Basic understanding of Java Language and It'_s_ syntax.
 
+
 ### How to Build
 ```
 
@@ -85,11 +90,16 @@ mvn clean package
 ```
 
 ### How to Run
+
 ```
 
 java -cp target/java-concurrency-samples-1.0-SNAPSHOT.jar ThreadExample
 
 ```
+<<<<<<< HEAD
+
+---
+=======
 
 ---
 
@@ -107,3 +117,4 @@ and it's related classes.
 [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.html#compareAndSetState(int,int)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.html#compareAndSetState(int,int))
 
 ---
+>>>>>>> refs/remotes/origin/main
