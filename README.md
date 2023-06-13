@@ -38,7 +38,7 @@ Understanding the followings are the building blocks to understand how to build 
 #### Executors
 - Executors
 - ThreadPool, ThreadPool Configuration
-  Runnable, Callable, Future, ExecutorService ..etc
+- Runnable, Callable, Future, ExecutorService ..etc
 - ForkJoinPool - work stealing algorithm
 - Producer Consumer
 
@@ -52,7 +52,6 @@ Understanding the followings are the building blocks to understand how to build 
 - Phaser
 
 ---
-
 #### Locks
 - Lock
 - ReentrantLock
@@ -96,25 +95,5 @@ mvn clean package
 java -cp target/java-concurrency-samples-1.0-SNAPSHOT.jar ThreadExample
 
 ```
-<<<<<<< HEAD
 
 ---
-=======
-
----
-
-#### Summary
-We have successfully completed this course, We have seen the building blocks which are used to
-build multithreading application. These are the core features to understand java concurrency
-and it's related classes.
-
----
-
-##### References
-[https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/package-summary.html](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/package-summary.html)
-[https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/package-summary.html](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/package-summary.html)
-[https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/atomic/package-summary.html](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/atomic/package-summary.html)
-[https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.html#compareAndSetState(int,int)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.html#compareAndSetState(int,int))
-
----
->>>>>>> refs/remotes/origin/main
