@@ -26,20 +26,20 @@ you should be familiar with java8 syntax.
 
 > Basics of Java Threads
 
-1. [Java+Memory+Model](#Java+Memory+Model)
+1. [Java-Memory-Model](#Java-Memory-Model)
 
 2. [Atomic](#Atomic)
 
-3. [Thread Safety](#Thread Safety)
+3. [Thread-Safety](#Thread-Safety)
 
-4. [Inter Thread Communication](#Inter Thread Communication)
+4. [Inter-Thread-Communication](#Inter-Thread-Communication)
 
 5. [Immutable](#Immutable)
 
 
 > Atomic classes
 
-1. [Non-blocking CAS (AtomicInteger, AtomicLong, AtomicBoolean ...etc.)](#Non-blocking CAS)
+1. [Non-blocking-CAS](#Non-blocking-CAS)
 
 
 > Executors 
@@ -71,22 +71,21 @@ you should be familiar with java8 syntax.
 
 > Collections and Concurrency
 
-1. [Collections and Concurrency](#Collections and Concurrency)
-2. [Building Custom Synchronizer using AbstractQueuedSynchronizer](#Building Custom Synchronizer using AbstractQueuedSynchronizer)
+1. [Collections-Concurrency](#Collections-Concurrency)
+2. [AbstractQueuedSynchronizer](#AbstractQueuedSynchronizer)
 
 
 > Problems
 
-1. [Print Zero Odd Even](#Print Zero Odd Even)
-2. [Print Water Molecule (H2O)](#Print Water Molecule (H2O))
-3. [Print CO2 Molecule](Print CO2 Molecule)
-
+1. [Print-Zero-Odd-Even](#Print-Zero-Odd-Even)
+2. [Print-Water-Molecule-(H2O)](#Print-Water-Molecule)
+3. [Print-CO2-Molecule](Print-CO2-Molecule)
 
 > Practice
->
+
 ---
 #### Prerequisites
-- Basic understanding of Java Language and It'_s_ syntax.
+Basic understanding of Java Language and It'_s_ syntax.
 
 #### How to Build
 
