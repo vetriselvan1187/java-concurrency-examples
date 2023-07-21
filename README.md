@@ -21,6 +21,10 @@ performance when compared to single threaded application.
 
 Understanding the followings are the building blocks to understand how to build concurrent application.
 
+#### Prerequisites
+
+
+
 ---
 
 #### Basics of Java Threads
@@ -80,10 +84,10 @@ Understanding the followings are the building blocks to understand how to build 
 #### Prerequisites
 - Basic understanding of Java Language and It'_s_ syntax.
 
-
 ### How to Build
 ```
-
+git clone https://github.com/vetriselvan1187/java-concurrency-examples.git
+cd java-concurrency-examples
 mvn clean package
 
 ```
@@ -91,7 +95,6 @@ mvn clean package
 ### How to Run
 
 ```
-
 java -cp target/java-concurrency-samples-1.0-SNAPSHOT.jar ThreadExample
 
 ```
