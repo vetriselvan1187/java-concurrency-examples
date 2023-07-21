@@ -83,7 +83,7 @@ you should be familiar with java8 syntax.
 
 > Practice
 
----
+
 #### Prerequisites
 Basic understanding of Java Language and It'_s_ syntax.
 
@@ -105,4 +105,11 @@ mvn clean package
 java -cp target/java-concurrency-samples-1.0-SNAPSHOT.jar ThreadExample
 
 ```
+
 ---
+
+`>>>`  A Guide to Java Concurrency and Multithreading
+
+`...`  course by Vetriselvan
+
+![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png). This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
