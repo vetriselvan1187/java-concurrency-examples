@@ -26,20 +26,20 @@ you should be familiar with java8 syntax.
 
 > Basics of Java Threads
 
-1. [Java Memory Model](Java Memory Model)
+1. [Java_Memory_Model](#Java_Memory_Model)
 
 2. [Atomic](#Atomic)
 
-3. [Thread Safety](Thread Safety)
+3. [Thread_Safety](#Thread_Safety)
 
-4. [Inter Thread Communication](#Inter Thread Communication)
+5. [Inter_Thread_Communication](#Inter_Thread_Communication)
 
-5. [Immutable](#Immutable)
+6. [Immutable](#Immutable)
 
 
 > Atomic classes
 
-1. [Non blocking CAS](#Non blocking CAS)
+1. [Non_blocking_CAS](#Non_blocking_CAS)
 
 
 > Executors 
@@ -48,11 +48,11 @@ you should be familiar with java8 syntax.
 
 2. [ThreadPools](ThreadPools)
 
-3. [Runnable Callable Future ExecutorService](Runnable Callable Future ExecutorService)
+3. [Runnable_Callable_Future_ExecutorService](#Runnable_Callable_Future_ExecutorService)
 
-5. [ForkJoinPool](ForkJoinPool)
+5. [ForkJoinPool](#ForkJoinPool)
 
-6. [Producer Consumer](Porducer Consumer)
+6. [Producer_Consumer](#Producer_Consumer)
 
 
 > High Level Concurrency
@@ -71,15 +71,15 @@ you should be familiar with java8 syntax.
 
 > Collections and Concurrency
 
-1. [Collections and Concurrency](Collections and Concurrency)
+1. [Collections_and_Concurrency](Collections_and_Concurrency)
 2. [AbstractQueuedSynchronizer](AbstractQueuedSynchronizer)
 
 
 > Problems
 
-1. [Print Zero Odd Even](Print Zero Odd Even)
-2. [Print Water Molecule (H2O)](Print Water Molecule)
-3. [Print CO2 Molecule](Print CO2 Molecule)
+1. [Print_Zero_Odd_Even](Print_Zero_Odd_Even)
+2. [Print_Water_Molecule_(H2O)](Print_Water_Molecule)
+3. [Print_CO2_Molecule](Print_CO2_Molecule)
 
 > Practice
 
