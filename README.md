@@ -26,63 +26,62 @@ you should be familiar with java8 syntax.
 
 > Basics of Java Threads
 
-1. [Java-Memory-Model](#Java-Memory-Model)
+1. [Java Memory Model](Java Memory Model)
 
 2. [Atomic](#Atomic)
 
-3. [Thread-Safety](#Thread-Safety)
+3. [Thread Safety](Thread Safety)
 
-4. [Inter-Thread-Communication](#Inter-Thread-Communication)
+4. [Inter Thread Communication](#Inter Thread Communication)
 
 5. [Immutable](#Immutable)
 
 
 > Atomic classes
 
-1. [Non-blocking-CAS](#Non-blocking-CAS)
+1. [Non blocking CAS](#Non blocking CAS)
 
 
 > Executors 
 
-1. [Executors](#Executors)
+1. [Executors](Executors)
 
-2. [ThreadPools](#ThreadPools)
+2. [ThreadPools](ThreadPools)
 
-3. [Runnable-Callable-Future-ExecutorService](#Runnable-Callable-Future-ExecutorService)
+3. [Runnable Callable Future ExecutorService](Runnable Callable Future ExecutorService)
 
-4. [ForkJoinPool](#ForkJoinPool)
+5. [ForkJoinPool](ForkJoinPool)
 
-5. [Producer-Consumer](#Porducer-Consumer)
+6. [Producer Consumer](Porducer Consumer)
 
 
 > High Level Concurrency
 
-1. [CountDownLatch](#CountDownLatch)
-2. [CyclicBarrier](#CyclicBarrier)
-3. [Semaphore](#Semaphore)
-4. [Exchanger](#Exchanger)
-5. [Phaser](#Phaser)
+1. [CountDownLatch](CountDownLatch)
+2. [CyclicBarrier](CyclicBarrier)
+3. [Semaphore](Semaphore)
+4. [Exchanger](Exchanger)
+5. [Phaser](Phaser)
 
 > Locks
 
-1. [Lock](#Lock)
-2. [ReentrantLock](#ReentrantLock)
-3. [DeadLock](#DeadLock)
+1. [Lock](Lock)
+2. [ReentrantLock](ReentrantLock)
+3. [DeadLock](DeadLock)
 
 > Collections and Concurrency
 
-1. [Collections-Concurrency](#Collections-Concurrency)
-2. [AbstractQueuedSynchronizer](#AbstractQueuedSynchronizer)
+1. [Collections and Concurrency](Collections and Concurrency)
+2. [AbstractQueuedSynchronizer](AbstractQueuedSynchronizer)
 
 
 > Problems
 
-1. [Print-Zero-Odd-Even](#Print-Zero-Odd-Even)
-2. [Print-Water-Molecule-(H2O)](#Print-Water-Molecule)
-3. [Print-CO2-Molecule](Print-CO2-Molecule)
+1. [Print Zero Odd Even](Print Zero Odd Even)
+2. [Print Water Molecule (H2O)](Print Water Molecule)
+3. [Print CO2 Molecule](Print CO2 Molecule)
 
 > Practice
-
 
 #### Prerequisites
 Basic understanding of Java Language and It'_s_ syntax.
