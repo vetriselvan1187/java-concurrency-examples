@@ -1,102 +1,108 @@
-# Java Concurrency (java-concurrency)
+# Java Concurrency (A Guide to Understand Java Concurrency and Multithreading)
 
-#### Introduction
-In this course, We will look at Java Concurrency. What is Java Concurrency ?.
-Concurrency refers to the ability of the program to be executed in overlapping time periods.
-CPU can execute billions of instructions at time. How can we effectively utilize single core
-CPU to execute programs concurrently.
+This repository contains source code for my udemy course.
 
-Concurrency is not parallelism. Here, We will only discuss concurrency and How to make program
-concurrent so that It can be run efficiently.
+#### Synopsis
+This is a course on Java concurrency and multithreading. It explains about the concepts that are required to build java
+concurrent application. This repository contains source code for the course, and you can clone the repository and run the 
+examples. This course explains the following concepts such as understanding java memory model, immutability, classes(AtomicInteger, AtomicBoolean, AtomicLong..etc) that
+provides atomicity by implementing non-blocking algorithms. It covers executors which runs multiple threads to parallelize the execution of java application.
+This course explains about the concepts of high level concurrency, locks and how it affects the throughput of collections.
+It also contains exercise problems to practice the knowledge of this course.
 
-How to make Java program concurrent ?.
 
-Threads are basic building blocks of concurrent programs. Each java process starts with main thread,
-Which could create multiple threads. Thread is an independent path of execution in java. When multiple threads are created,
-all of them could share time slice of the cpu to provide the illusion that they are running in parallel.
-
-When we have multiple cpu core's, We will see how can we write concurrent programs in java. Java multithreading provides
-classes and interfaces to build concurrent java application. Concurrent Java application would definitely improve the
-performance when compared to single threaded application.
-
-Understanding the followings are the building blocks to understand how to build concurrent application.
+#### Target Audience
+If you already know java and wants to get good grasp on java concurrency. If you are working on a project which requires
+the knowledge of understanding the concepts of multithreading.
 
 #### Prerequisites
-
-
-
----
-
-#### Basics of Java Threads
-- Java Memory Model
-- Atomic
-- Thread Safety
-- Inter Thread Communication
-- Immutable
-
----
-#### Atomic classes
-- Non-blocking CAS (AtomicInteger, AtomicLong, AtomicBoolean ...etc.)
----
-
-#### Executors
-- Executors
-- ThreadPool, ThreadPool Configuration
-- Runnable, Callable, Future, ExecutorService ..etc
-- ForkJoinPool - work stealing algorithm
-- Producer Consumer
-
----
-#### High Level Concurrency
-- CountDown Latch
-- Cyclic Barrier
-- Semaphore
-- Producer-Consumer
-- Exchanger
-- Phaser
-
----
-#### Locks
-- Lock
-- ReentrantLock
-- DeadLock
+You should already know java and it's syntax.
+you should be familiar with java8 syntax.
 
 ---
 
-#### Collections and Concurrency
-- Collections and Concurrency
-- Building Custom Synchronizer using AbstractQueuedSynchronizer
+#### Table of contents
 
----
+> Basics of Java Threads
 
-#### Problems
-- Print Zero Odd Even
-- Print Water Molecule (H2O)
-- Print CO2 Molecule
+1. [Java Memory Model](#Java Memory Model)
 
----
+2. [Atomic](#Atomic)
 
-#### Practice
-- Print FizzBuzz
-- Dining Philosophers
+3. [Thread Safety](#Thread Safety)
 
+4. [Inter Thread Communication](#Inter Thread Communication)
+
+5. [Immutable](#Immutable)
+
+
+> Atomic classes
+
+1. [Non-blocking CAS (AtomicInteger, AtomicLong, AtomicBoolean ...etc.)](#Non-blocking CAS)
+
+
+> Executors 
+
+1. [Executors](#Executors)
+
+2. [ThreadPools](#ThreadPools)
+
+3. [Runnable-Callable-Future-ExecutorService](#Runnable-Callable-Future-ExecutorService)
+
+4. [ForkJoinPool](#ForkJoinPool)
+
+5. [Producer-Consumer](#Porducer-Consumer)
+
+
+> High Level Concurrency
+
+1. [CountDown Latch](#CountDown Latch)
+2. [Cyclic Barrier](#Cyclic Barrier)
+3. [Semaphore](#Semaphore)
+4. [Exchanger](#Exchanger)
+5. [Phaser](#Phaser)
+
+> Locks
+
+1. [Lock](#Lock)
+2. [ReentrantLock](#ReentrantLock)
+3. [DeadLock](#DeadLock)
+
+> Collections and Concurrency
+
+1. [Collections and Concurrency](#Collections and Concurrency)
+2. [Building Custom Synchronizer using AbstractQueuedSynchronizer](#Building Custom Synchronizer using AbstractQueuedSynchronizer)
+
+
+> Problems
+
+1. [Print Zero Odd Even](#Print Zero Odd Even)
+2. [Print Water Molecule (H2O)](#Print Water Molecule (H2O))
+3. [Print CO2 Molecule](Print CO2 Molecule)
+
+
+> Practice
+>
 ---
 #### Prerequisites
 - Basic understanding of Java Language and It'_s_ syntax.
 
-### How to Build
+#### How to Build
+
 ```
 git clone https://github.com/vetriselvan1187/java-concurrency-examples.git
+
 cd java-concurrency-examples
+
 mvn clean package
 
 ```
 
-### How to Run
+#### How to Run
 
 ```
+
 java -cp target/java-concurrency-samples-1.0-SNAPSHOT.jar ThreadExample
 
 ```
-
 ---
