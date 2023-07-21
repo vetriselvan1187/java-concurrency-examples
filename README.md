@@ -1,6 +1,7 @@
 # Java Concurrency (A Guide to Understand Java Concurrency and Multithreading)
 
-This repository contains source code for my udemy course.
+This repository contains source code for my udemy course
+[https://www.udemy.com/course/a-guide-to-java-concurrency/?kw=A+Guide+to+Java&src=sac](https://www.udemy.com/course/a-guide-to-java-concurrency/?kw=A+Guide+to+Java&src=sac).
 
 #### Synopsis
 This is a course on Java concurrency and multithreading. It explains about the concepts that are required to build java
@@ -25,7 +26,7 @@ you should be familiar with java8 syntax.
 
 > Basics of Java Threads
 
-1. [Java Memory Model](#Java Memory Model)
+1. [Java+Memory+Model](#Java+Memory+Model)
 
 2. [Atomic](#Atomic)
 
@@ -56,8 +57,8 @@ you should be familiar with java8 syntax.
 
 > High Level Concurrency
 
-1. [CountDown Latch](#CountDown Latch)
-2. [Cyclic Barrier](#Cyclic Barrier)
+1. [CountDownLatch](#CountDownLatch)
+2. [CyclicBarrier](#CyclicBarrier)
 3. [Semaphore](#Semaphore)
 4. [Exchanger](#Exchanger)
 5. [Phaser](#Phaser)
